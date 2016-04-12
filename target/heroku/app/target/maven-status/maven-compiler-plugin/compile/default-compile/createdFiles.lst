@@ -1,0 +1,4 @@
+com/school/models/Sql2oModel.class
+com/school/models/School.class
+com/school/models/Contact.class
+com/school/services/SchoolService.class

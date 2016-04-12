@@ -1,0 +1,381 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'nativefier',
+1 verbose cli   '-g' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose cache add [ 'nativefier', null ]
+5 verbose cache add name=undefined spec="nativefier" args=["nativefier",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'nativefier',
+6 verbose parsed url   path: 'nativefier',
+6 verbose parsed url   href: 'nativefier' }
+7 silly lockFile 695a1275-nativefier nativefier
+8 verbose lock nativefier /home/george/.npm/695a1275-nativefier.lock
+9 silly lockFile 695a1275-nativefier nativefier
+10 silly lockFile 695a1275-nativefier nativefier
+11 verbose addNamed [ 'nativefier', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile a251fc74-nativefier nativefier@
+14 verbose lock nativefier@ /home/george/.npm/a251fc74-nativefier.lock
+15 silly addNameRange { name: 'nativefier', range: '*', hasData: false }
+16 verbose url raw nativefier
+17 verbose url resolving [ 'https://registry.npmjs.org/', './nativefier' ]
+18 verbose url resolved https://registry.npmjs.org/nativefier
+19 info trying registry request attempt 1 at 16:36:23
+20 http GET https://registry.npmjs.org/nativefier
+21 http 200 https://registry.npmjs.org/nativefier
+22 silly registry.get cb [ 200,
+22 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+22 silly registry.get     etag: '"4IPVEHOZKBN8CAWMMUHHLMJ4C"',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     'cache-control': 'max-age=300',
+22 silly registry.get     'content-length': '79492',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     date: 'Tue, 29 Mar 2016 14:36:10 GMT',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     age: '0',
+22 silly registry.get     connection: 'keep-alive',
+22 silly registry.get     'x-served-by': 'cache-lhr6334-LHR',
+22 silly registry.get     'x-cache': 'MISS',
+22 silly registry.get     'x-cache-hits': '0',
+22 silly registry.get     'x-timer': 'S1459262170.066807,VS0,VE263',
+22 silly registry.get     vary: 'Accept' } ]
+23 silly addNameRange number 2 { name: 'nativefier', range: '*', hasData: true }
+24 silly addNameRange versions [ 'nativefier',
+24 silly addNameRange   [ '1.0.2',
+24 silly addNameRange     '1.0.3',
+24 silly addNameRange     '1.0.4',
+24 silly addNameRange     '1.0.5',
+24 silly addNameRange     '1.0.6',
+24 silly addNameRange     '1.0.7',
+24 silly addNameRange     '1.0.8',
+24 silly addNameRange     '1.0.9',
+24 silly addNameRange     '5.1.0',
+24 silly addNameRange     '5.1.1',
+24 silly addNameRange     '5.1.2',
+24 silly addNameRange     '6.0.0',
+24 silly addNameRange     '6.1.0',
+24 silly addNameRange     '6.2.0',
+24 silly addNameRange     '6.2.1',
+24 silly addNameRange     '6.3.0',
+24 silly addNameRange     '6.3.1',
+24 silly addNameRange     '6.3.2',
+24 silly addNameRange     '6.3.3',
+24 silly addNameRange     '6.4.0',
+24 silly addNameRange     '6.5.0',
+24 silly addNameRange     '6.5.1',
+24 silly addNameRange     '6.5.2-0',
+24 silly addNameRange     '6.5.3',
+24 silly addNameRange     '6.5.4',
+24 silly addNameRange     '6.5.5',
+24 silly addNameRange     '6.5.6',
+24 silly addNameRange     '6.6.0',
+24 silly addNameRange     '6.6.1',
+24 silly addNameRange     '6.6.2',
+24 silly addNameRange     '6.7.0',
+24 silly addNameRange     '6.8.0',
+24 silly addNameRange     '6.9.0',
+24 silly addNameRange     '6.9.1',
+24 silly addNameRange     '6.10.0',
+24 silly addNameRange     '6.10.1',
+24 silly addNameRange     '6.11.0',
+24 silly addNameRange     '6.12.0',
+24 silly addNameRange     '6.12.1',
+24 silly addNameRange     '6.13.0' ] ]
+25 verbose addNamed [ 'nativefier', '6.13.0' ]
+26 verbose addNamed [ '6.13.0', '6.13.0' ]
+27 silly lockFile 137fdfca-nativefier-6-13-0 nativefier@6.13.0
+28 verbose lock nativefier@6.13.0 /home/george/.npm/137fdfca-nativefier-6-13-0.lock
+29 silly lockFile 68c15f41-nativefier-nativefier-6-13-0-tgz https://registry.npmjs.org/nativefier/-/nativefier-6.13.0.tgz
+30 verbose lock https://registry.npmjs.org/nativefier/-/nativefier-6.13.0.tgz /home/george/.npm/68c15f41-nativefier-nativefier-6-13-0-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/nativefier/-/nativefier-6.13.0.tgz',
+31 verbose addRemoteTarball   'f263a969a994fba46bfb65d76802fc066666c7f3' ]
+32 info retry fetch attempt 1 at 16:36:26
+33 verbose fetch to= /home/george/tmp/npm-29614-3h_yJoaB/1459262186454-0.9460951606743038/tmp.tgz
+34 http GET https://registry.npmjs.org/nativefier/-/nativefier-6.13.0.tgz
+35 http 200 https://registry.npmjs.org/nativefier/-/nativefier-6.13.0.tgz
+36 verbose tar unpack /home/george/tmp/npm-29614-3h_yJoaB/1459262186454-0.9460951606743038/tmp.tgz
+37 silly lockFile 205d579a-86454-0-9460951606743038-package tar:///home/george/tmp/npm-29614-3h_yJoaB/1459262186454-0.9460951606743038/package
+38 verbose lock tar:///home/george/tmp/npm-29614-3h_yJoaB/1459262186454-0.9460951606743038/package /home/george/.npm/205d579a-86454-0-9460951606743038-package.lock
+39 silly lockFile 1f1439c3-86454-0-9460951606743038-tmp-tgz tar:///home/george/tmp/npm-29614-3h_yJoaB/1459262186454-0.9460951606743038/tmp.tgz
+40 verbose lock tar:///home/george/tmp/npm-29614-3h_yJoaB/1459262186454-0.9460951606743038/tmp.tgz /home/george/.npm/1f1439c3-86454-0-9460951606743038-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm extractEntry README.md
+44 silly gunzTarPerm extractEntry LICENSE.md
+45 silly gunzTarPerm extractEntry app/package.json
+46 silly gunzTarPerm extractEntry app/inject/_placeholder
+47 silly gunzTarPerm extractEntry app/lib/main.js
+48 silly gunzTarPerm extractEntry app/lib/main.js.map
+49 silly gunzTarPerm extractEntry app/lib/static/preload.js
+50 silly gunzTarPerm extractEntry app/lib/static/login/login.js
+51 silly gunzTarPerm extractEntry app/lib/static/login/login.css
+52 silly gunzTarPerm extractEntry app/lib/static/login/login.html
+53 silly gunzTarPerm extractEntry app/lib/static/login/login.js.map
+54 silly gunzTarPerm extractEntry app/lib/static/preload.js.map
+55 silly gunzTarPerm extractEntry app/nativefier.json
+56 silly gunzTarPerm extractEntry app/src/main.js
+57 silly gunzTarPerm extractEntry app/src/components/contextMenu/contextMenu.js
+58 silly gunzTarPerm extractEntry app/src/components/login/loginWindow.js
+59 silly gunzTarPerm extractEntry app/src/components/mainWindow/mainWindow.js
+60 silly gunzTarPerm extractEntry app/src/components/menu/menu.js
+61 silly gunzTarPerm extractEntry app/src/helpers/helpers.js
+62 silly gunzTarPerm extractEntry app/src/helpers/inferFlash.js
+63 silly gunzTarPerm extractEntry app/src/static/preload.js
+64 silly gunzTarPerm extractEntry app/src/static/login/login.js
+65 silly gunzTarPerm extractEntry app/src/static/login/login.css
+66 silly gunzTarPerm extractEntry app/src/static/login/login.html
+67 silly gunzTarPerm extractEntry bin/convertToIcns
+68 silly gunzTarPerm extractEntry bin/convertToIco
+69 silly gunzTarPerm extractEntry bin/convertToPng
+70 silly gunzTarPerm extractEntry lib/cli.js
+71 silly gunzTarPerm extractEntry lib/index.js
+72 silly gunzTarPerm extractEntry lib/build/buildApp.js
+73 silly gunzTarPerm extractEntry lib/build/buildMain.js
+74 silly gunzTarPerm extractEntry lib/build/iconBuild.js
+75 silly gunzTarPerm extractEntry lib/build/buildApp.js.map
+76 silly gunzTarPerm extractEntry lib/build/buildMain.js.map
+77 silly gunzTarPerm extractEntry lib/build/iconBuild.js.map
+78 silly gunzTarPerm extractEntry lib/cli.js.map
+79 silly gunzTarPerm extractEntry lib/helpers/convertToIcns.js
+80 silly gunzTarPerm extractEntry lib/helpers/dishonestProgress.js
+81 silly gunzTarPerm extractEntry lib/helpers/helpers.js
+82 silly gunzTarPerm extractEntry lib/helpers/iconShellHelpers.js
+83 silly gunzTarPerm extractEntry lib/helpers/packagerConsole.js
+84 silly gunzTarPerm extractEntry lib/helpers/convertToIcns.js.map
+85 silly gunzTarPerm extractEntry lib/helpers/dishonestProgress.js.map
+86 silly gunzTarPerm extractEntry lib/helpers/helpers.js.map
+87 silly gunzTarPerm extractEntry lib/helpers/iconShellHelpers.js.map
+88 silly gunzTarPerm extractEntry lib/helpers/packagerConsole.js.map
+89 silly gunzTarPerm extractEntry lib/index.js.map
+90 silly gunzTarPerm extractEntry lib/infer/inferIcon.js
+91 silly gunzTarPerm extractEntry lib/infer/inferOs.js
+92 silly gunzTarPerm extractEntry lib/infer/inferTitle.js
+93 silly gunzTarPerm extractEntry lib/infer/inferUserAgent.js
+94 silly gunzTarPerm extractEntry lib/infer/inferIcon.js.map
+95 silly gunzTarPerm extractEntry lib/infer/inferOs.js.map
+96 silly gunzTarPerm extractEntry lib/infer/inferTitle.js.map
+97 silly gunzTarPerm extractEntry lib/infer/inferUserAgent.js.map
+98 silly gunzTarPerm extractEntry lib/options/normalizeUrl.js
+99 silly gunzTarPerm extractEntry lib/options/optionsMain.js
+100 silly gunzTarPerm extractEntry lib/options/normalizeUrl.js.map
+101 silly gunzTarPerm extractEntry lib/options/optionsMain.js.map
+102 silly lockFile 205d579a-86454-0-9460951606743038-package tar:///home/george/tmp/npm-29614-3h_yJoaB/1459262186454-0.9460951606743038/package
+103 silly lockFile 205d579a-86454-0-9460951606743038-package tar:///home/george/tmp/npm-29614-3h_yJoaB/1459262186454-0.9460951606743038/package
+104 silly lockFile 1f1439c3-86454-0-9460951606743038-tmp-tgz tar:///home/george/tmp/npm-29614-3h_yJoaB/1459262186454-0.9460951606743038/tmp.tgz
+105 silly lockFile 1f1439c3-86454-0-9460951606743038-tmp-tgz tar:///home/george/tmp/npm-29614-3h_yJoaB/1459262186454-0.9460951606743038/tmp.tgz
+106 verbose tar pack [ '/home/george/.npm/nativefier/6.13.0/package.tgz',
+106 verbose tar pack   '/home/george/tmp/npm-29614-3h_yJoaB/1459262186454-0.9460951606743038/package' ]
+107 verbose tarball /home/george/.npm/nativefier/6.13.0/package.tgz
+108 verbose folder /home/george/tmp/npm-29614-3h_yJoaB/1459262186454-0.9460951606743038/package
+109 silly lockFile 205d579a-86454-0-9460951606743038-package tar:///home/george/tmp/npm-29614-3h_yJoaB/1459262186454-0.9460951606743038/package
+110 verbose lock tar:///home/george/tmp/npm-29614-3h_yJoaB/1459262186454-0.9460951606743038/package /home/george/.npm/205d579a-86454-0-9460951606743038-package.lock
+111 silly lockFile 0b962567-pm-nativefier-6-13-0-package-tgz tar:///home/george/.npm/nativefier/6.13.0/package.tgz
+112 verbose lock tar:///home/george/.npm/nativefier/6.13.0/package.tgz /home/george/.npm/0b962567-pm-nativefier-6-13-0-package-tgz.lock
+113 silly lockFile 205d579a-86454-0-9460951606743038-package tar:///home/george/tmp/npm-29614-3h_yJoaB/1459262186454-0.9460951606743038/package
+114 silly lockFile 205d579a-86454-0-9460951606743038-package tar:///home/george/tmp/npm-29614-3h_yJoaB/1459262186454-0.9460951606743038/package
+115 silly lockFile 0b962567-pm-nativefier-6-13-0-package-tgz tar:///home/george/.npm/nativefier/6.13.0/package.tgz
+116 silly lockFile 0b962567-pm-nativefier-6-13-0-package-tgz tar:///home/george/.npm/nativefier/6.13.0/package.tgz
+117 silly lockFile d6df55dc-ge-npm-nativefier-6-13-0-package /home/george/.npm/nativefier/6.13.0/package
+118 verbose lock /home/george/.npm/nativefier/6.13.0/package /home/george/.npm/d6df55dc-ge-npm-nativefier-6-13-0-package.lock
+119 silly lockFile d6df55dc-ge-npm-nativefier-6-13-0-package /home/george/.npm/nativefier/6.13.0/package
+120 silly lockFile d6df55dc-ge-npm-nativefier-6-13-0-package /home/george/.npm/nativefier/6.13.0/package
+121 verbose tar unpack /home/george/.npm/nativefier/6.13.0/package.tgz
+122 silly lockFile 95501b81-ge-npm-nativefier-6-13-0-package tar:///home/george/.npm/nativefier/6.13.0/package
+123 verbose lock tar:///home/george/.npm/nativefier/6.13.0/package /home/george/.npm/95501b81-ge-npm-nativefier-6-13-0-package.lock
+124 silly lockFile 0b962567-pm-nativefier-6-13-0-package-tgz tar:///home/george/.npm/nativefier/6.13.0/package.tgz
+125 verbose lock tar:///home/george/.npm/nativefier/6.13.0/package.tgz /home/george/.npm/0b962567-pm-nativefier-6-13-0-package-tgz.lock
+126 silly gunzTarPerm modes [ '755', '644' ]
+127 silly gunzTarPerm extractEntry package.json
+128 silly gunzTarPerm extractEntry README.md
+129 silly gunzTarPerm extractEntry LICENSE.md
+130 silly gunzTarPerm extractEntry app/package.json
+131 silly gunzTarPerm extractEntry app/inject/_placeholder
+132 silly gunzTarPerm extractEntry app/lib/main.js
+133 silly gunzTarPerm extractEntry app/lib/main.js.map
+134 silly gunzTarPerm extractEntry app/lib/static/preload.js
+135 silly gunzTarPerm extractEntry app/lib/static/login/login.js
+136 silly gunzTarPerm extractEntry app/lib/static/login/login.css
+137 silly gunzTarPerm extractEntry app/lib/static/login/login.html
+138 silly gunzTarPerm extractEntry app/lib/static/login/login.js.map
+139 silly gunzTarPerm extractEntry app/lib/static/preload.js.map
+140 silly gunzTarPerm extractEntry app/nativefier.json
+141 silly gunzTarPerm extractEntry app/src/main.js
+142 silly gunzTarPerm extractEntry app/src/components/contextMenu/contextMenu.js
+143 silly gunzTarPerm extractEntry app/src/components/login/loginWindow.js
+144 silly gunzTarPerm extractEntry app/src/components/mainWindow/mainWindow.js
+145 silly gunzTarPerm extractEntry app/src/components/menu/menu.js
+146 silly gunzTarPerm extractEntry app/src/helpers/helpers.js
+147 silly gunzTarPerm extractEntry app/src/helpers/inferFlash.js
+148 silly gunzTarPerm extractEntry app/src/static/preload.js
+149 silly gunzTarPerm extractEntry app/src/static/login/login.js
+150 silly gunzTarPerm extractEntry app/src/static/login/login.css
+151 silly gunzTarPerm extractEntry app/src/static/login/login.html
+152 silly gunzTarPerm extractEntry bin/convertToIcns
+153 silly gunzTarPerm extractEntry bin/convertToIco
+154 silly gunzTarPerm extractEntry bin/convertToPng
+155 silly gunzTarPerm extractEntry lib/cli.js
+156 silly gunzTarPerm extractEntry lib/index.js
+157 silly gunzTarPerm extractEntry lib/build/buildApp.js
+158 silly gunzTarPerm extractEntry lib/build/buildMain.js
+159 silly gunzTarPerm extractEntry lib/build/iconBuild.js
+160 silly gunzTarPerm extractEntry lib/build/buildApp.js.map
+161 silly gunzTarPerm extractEntry lib/build/buildMain.js.map
+162 silly gunzTarPerm extractEntry lib/build/iconBuild.js.map
+163 silly gunzTarPerm extractEntry lib/cli.js.map
+164 silly gunzTarPerm extractEntry lib/helpers/convertToIcns.js
+165 silly gunzTarPerm extractEntry lib/helpers/dishonestProgress.js
+166 silly gunzTarPerm extractEntry lib/helpers/helpers.js
+167 silly gunzTarPerm extractEntry lib/helpers/iconShellHelpers.js
+168 silly gunzTarPerm extractEntry lib/helpers/packagerConsole.js
+169 silly gunzTarPerm extractEntry lib/helpers/convertToIcns.js.map
+170 silly gunzTarPerm extractEntry lib/helpers/dishonestProgress.js.map
+171 silly gunzTarPerm extractEntry lib/helpers/helpers.js.map
+172 silly gunzTarPerm extractEntry lib/helpers/iconShellHelpers.js.map
+173 silly gunzTarPerm extractEntry lib/helpers/packagerConsole.js.map
+174 silly gunzTarPerm extractEntry lib/index.js.map
+175 silly gunzTarPerm extractEntry lib/infer/inferIcon.js
+176 silly gunzTarPerm extractEntry lib/infer/inferOs.js
+177 silly gunzTarPerm extractEntry lib/infer/inferTitle.js
+178 silly gunzTarPerm extractEntry lib/infer/inferUserAgent.js
+179 silly gunzTarPerm extractEntry lib/infer/inferIcon.js.map
+180 silly gunzTarPerm extractEntry lib/infer/inferOs.js.map
+181 silly gunzTarPerm extractEntry lib/infer/inferTitle.js.map
+182 silly gunzTarPerm extractEntry lib/infer/inferUserAgent.js.map
+183 silly gunzTarPerm extractEntry lib/options/normalizeUrl.js
+184 silly gunzTarPerm extractEntry lib/options/optionsMain.js
+185 silly gunzTarPerm extractEntry lib/options/normalizeUrl.js.map
+186 silly gunzTarPerm extractEntry lib/options/optionsMain.js.map
+187 silly lockFile 95501b81-ge-npm-nativefier-6-13-0-package tar:///home/george/.npm/nativefier/6.13.0/package
+188 silly lockFile 95501b81-ge-npm-nativefier-6-13-0-package tar:///home/george/.npm/nativefier/6.13.0/package
+189 silly lockFile 0b962567-pm-nativefier-6-13-0-package-tgz tar:///home/george/.npm/nativefier/6.13.0/package.tgz
+190 silly lockFile 0b962567-pm-nativefier-6-13-0-package-tgz tar:///home/george/.npm/nativefier/6.13.0/package.tgz
+191 verbose chmod /home/george/.npm/nativefier/6.13.0/package.tgz 644
+192 verbose chown /home/george/.npm/nativefier/6.13.0/package.tgz [ 1000, 1000 ]
+193 silly lockFile 68c15f41-nativefier-nativefier-6-13-0-tgz https://registry.npmjs.org/nativefier/-/nativefier-6.13.0.tgz
+194 silly lockFile 68c15f41-nativefier-nativefier-6-13-0-tgz https://registry.npmjs.org/nativefier/-/nativefier-6.13.0.tgz
+195 silly lockFile 137fdfca-nativefier-6-13-0 nativefier@6.13.0
+196 silly lockFile 137fdfca-nativefier-6-13-0 nativefier@6.13.0
+197 silly lockFile a251fc74-nativefier nativefier@
+198 silly lockFile a251fc74-nativefier nativefier@
+199 silly resolved [ { name: 'nativefier',
+199 silly resolved     version: '6.13.0',
+199 silly resolved     description: 'Wrap web apps natively',
+199 silly resolved     keywords: [ 'desktop', 'electron', 'app', 'native', 'wrapper' ],
+199 silly resolved     main: 'lib/index.js',
+199 silly resolved     scripts:
+199 silly resolved      { 'dev-up': 'npm install && (cd app && npm install) && npm run build',
+199 silly resolved        test: 'gulp test',
+199 silly resolved        lint: 'gulp lint',
+199 silly resolved        ci: 'gulp ci',
+199 silly resolved        clean: 'gulp clean',
+199 silly resolved        build: 'gulp build',
+199 silly resolved        watch: 'while true ; do gulp watch ; done',
+199 silly resolved        'package-placeholder': 'npm run build && node lib/cli.js http://www.bennish.net/web-notifications.html ~/Desktop --overwrite --name notification-test --icon ./test-resources/iconSampleGrey.png --inject ./test-resources/test-injection.js --inject ./test-resources/test-injection.css && open ~/Desktop/notification-test-darwin-x64/notification-test.app',
+199 silly resolved        'start-placeholder': 'npm run build && electron app',
+199 silly resolved        release: 'gulp release' },
+199 silly resolved     bin: { nativefier: 'lib/cli.js' },
+199 silly resolved     repository:
+199 silly resolved      { type: 'git',
+199 silly resolved        url: 'git+https://github.com/jiahaog/nativefier.git' },
+199 silly resolved     author: '',
+199 silly resolved     license: 'MIT',
+199 silly resolved     bugs: { url: 'https://github.com/jiahaog/nativefier/issues' },
+199 silly resolved     homepage: 'https://github.com/jiahaog/nativefier#readme',
+199 silly resolved     dependencies:
+199 silly resolved      { async: '^1.5.2',
+199 silly resolved        axios: '^0.9.1',
+199 silly resolved        'babel-polyfill': '^6.7.2',
+199 silly resolved        cheerio: '^0.19.0',
+199 silly resolved        commander: '^2.9.0',
+199 silly resolved        'electron-packager': '^5.2.1',
+199 silly resolved        gitcloud: '^0.1.0',
+199 silly resolved        hasbin: '^1.2.0',
+199 silly resolved        lodash: '^4.0.0',
+199 silly resolved        loglevel: '^1.4.0',
+199 silly resolved        ncp: '^2.0.0',
+199 silly resolved        'page-icon': '^0.3.0',
+199 silly resolved        progress: '^1.1.8',
+199 silly resolved        request: '^2.67.0',
+199 silly resolved        'sanitize-filename': '^1.5.3',
+199 silly resolved        shelljs: '^0.5.3',
+199 silly resolved        'source-map-support': '^0.4.0',
+199 silly resolved        tmp: '0.0.28',
+199 silly resolved        validator: '^4.5.0' },
+199 silly resolved     babel: { presets: [Object] },
+199 silly resolved     devDependencies:
+199 silly resolved      { async: '^1.5.2',
+199 silly resolved        'babel-core': '^6.4.5',
+199 silly resolved        'babel-loader': '^6.2.1',
+199 silly resolved        'babel-preset-es2015': '^6.6.0',
+199 silly resolved        'babel-register': '^6.6.0',
+199 silly resolved        chai: '^3.4.1',
+199 silly resolved        del: '^2.2.0',
+199 silly resolved        'eslint-config-google': '^0.3.0',
+199 silly resolved        gulp: '^3.9.0',
+199 silly resolved        'gulp-babel': '^6.1.1',
+199 silly resolved        'gulp-eslint': '^1.1.1',
+199 silly resolved        'gulp-istanbul': '^0.10.3',
+199 silly resolved        'gulp-mocha': '^2.2.0',
+199 silly resolved        'gulp-sourcemaps': '^1.6.0',
+199 silly resolved        lodash: '^4.0.0',
+199 silly resolved        'require-dir': '^0.3.0',
+199 silly resolved        'run-sequence': '^1.1.5',
+199 silly resolved        shelljs: '^0.5.3',
+199 silly resolved        tmp: '0.0.28',
+199 silly resolved        'webpack-stream': '^3.1.0' },
+199 silly resolved     readme: '# Nativefier\n\n[![Build Status](https://travis-ci.org/jiahaog/nativefier.svg?branch=development)](https://travis-ci.org/jiahaog/nativefier)\n[![Code Climate](https://codeclimate.com/github/jiahaog/nativefier/badges/gpa.svg)](https://codeclimate.com/github/jiahaog/nativefier)\n[![npm version](https://badge.fury.io/js/nativefier.svg)](https://www.npmjs.com/package/nativefier)\n\n![Dock Screenshot](https://raw.githubusercontent.com/jiahaog/nativefier/master/screenshots/Dock%20Screenshot.png)\n\nYou want to make a native wrapper for WhatsApp Web (or any web page).\n\n```bash\n$ nativefier web.whatsapp.com\n```\n\nYou\'re done.\n\n## Table of Contents\n\n  - [Installation](#installation)\n  - [Usage](#usage)\n  - [Optional Dependencies](#optional-dependencies)\n  - [How It Works](#how-it-works)\n  - [API Documentation](docs/api.md)\n  - [Changelog](docs/changelog.md)\n  - [Development](docs/development.md)\n  - [License](#license)\n\n## Introduction\n\nNativefier is a command line tool that allows you to easily create a desktop application for any web site with succinct and minimal configuration. Apps are wrapped by [Electron](http://electron.atom.io) in an OS executable (`.app`, `.exe`, etc.) for use on Windows, OSX and Linux.\n\nI did this because I was tired of having to `⌘-tab` or `alt-tab` to my browser and then search through the numerous open tabs when I was using [Facebook Messenger](http://messenger.com) or [Whatsapp Web](http://web.whatsapp.com).\n\nView the changelog [here](docs/changelog.md).\n\n[Relevant Hacker News Thread](https://news.ycombinator.com/item?id=10930718)\n\n### Features\n\n- Automatically retrieves the correct icon and app name\n- Flash Support (Needs Testing)\n- Javascript and CSS injection\n\n## Installation\n\nWith [Node.js](https://nodejs.org/) `>=0.12` installed,\n\n```bash\n# for use from the command line\n$ npm install nativefier -g\n```\n\nSee [optional dependencies](#optional-dependencies) for more.\n\n## Usage\n\nCreating a native desktop app for [medium.com](http://medium.com):\n\n```bash\n$ nativefier "http://medium.com"\n```\n\nNativefier will intelligently attempt to determine the app name, your OS and processor architecture, among other options. If desired, the app name or other options can be overwritten by specifying the `--name "Medium"` as part of the command line options, as such.\n\n```bash\n$ nativefier --name "Some Awesome App" "http://medium.com"\n```\nRead the [API documentation](docs/api.md) for other command line flags and options that can be used to configure the packaged app.\n\nIf you would like high resoulution icons to be used, please contribute to the [icon repository](https://github.com/jiahaog/nativefier-icons)!\n\n**For Windows Users:** Take note that the application menu is automatically hidden by default, you can press `alt` on your keyboard to access it.\n\n**For Linux Users:** Do not put spaces if you define the app name yourself with `--name`, as this will cause problems (tested on Ubuntu 14.04) when pinning a packaged app to the launcher.\n\n## Optional Dependencies\n\n### Icons for Windows Apps from non-Windows platforms\n\nYou need [Wine](https://www.winehq.org/) installed, make sure that `wine` is in your `$PATH`.\n\n### Icon Conversion for OSX\n\nTo support conversion of a `.png` or `.ico` into a `.icns` for a packaged OSX app icon (currently only supported on OSX), you need the following dependencies.\n\n#### [iconutil](https://developer.apple.com/library/mac/documentation/GraphicsAnimation/Conceptual/HighResolutionOSX/Optimizing/Optimizing.html)\n\nYou need [XCode](https://developer.apple.com/xcode/) installed.\n\n#### [imagemagick](http://www.imagemagick.org/script/index.php)\n\nMake sure `convert` and `identify` are in your `$PATH`.\n\n### Flash\n\n#### [Google Chrome](https://www.google.com/chrome/)\n\nGoogle Chrome is required for flash to be supported. Alternatively, you could download the PepperFlash Chrome plugin and specify the path to it directly with the `--flash` flag. See the command line options below for more details.\n\n## How It Works\n\nA template app with the appropriate event listeners and callbacks set up is included in the `./app` folder. When the `nativefier` command is executed, this folder is copied to a temporary directory with the appropriate parameters in a configuration file, and is packaged into an app with [Electron Packager](https://github.com/electron-userland/electron-packager).\n\nIn addition, I built [GitCloud](https://github.com/jiahaog/gitcloud) to use GitHub as an icon index, and also the [pageIcon](https://github.com/jiahaog/page-icon) fallback to infer a relevant icon from a url.\n\n## API Documentation\n\nSee [API](docs/api.md).\n\n## Changelog\n\nSee [Changelog](docs/changelog.md).\n\n## Development\n\nSee [Development](docs/development.md).\n\n## License\n\n[MIT](LICENSE.md)\n',
+199 silly resolved     readmeFilename: 'README.md',
+199 silly resolved     _id: 'nativefier@6.13.0',
+199 silly resolved     dist: { shasum: 'f3369bd5c5dc6a28d008b5a1f0768fedd62d2820' },
+199 silly resolved     _from: 'nativefier@',
+199 silly resolved     _resolved: 'https://registry.npmjs.org/nativefier/-/nativefier-6.13.0.tgz' } ]
+200 info install nativefier@6.13.0 into /usr/local/lib
+201 info installOne nativefier@6.13.0
+202 info /usr/local/lib/node_modules/nativefier unbuild
+203 verbose tar unpack /home/george/.npm/nativefier/6.13.0/package.tgz
+204 silly lockFile ce843799-ocal-lib-node-modules-nativefier tar:///usr/local/lib/node_modules/nativefier
+205 verbose lock tar:///usr/local/lib/node_modules/nativefier /home/george/.npm/ce843799-ocal-lib-node-modules-nativefier.lock
+206 silly lockFile 0b962567-pm-nativefier-6-13-0-package-tgz tar:///home/george/.npm/nativefier/6.13.0/package.tgz
+207 verbose lock tar:///home/george/.npm/nativefier/6.13.0/package.tgz /home/george/.npm/0b962567-pm-nativefier-6-13-0-package-tgz.lock
+208 silly gunzTarPerm modes [ '755', '644' ]
+209 error Error: EACCES, mkdir '/usr/local/lib/node_modules'
+209 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules']
+209 error   errno: 3,
+209 error   code: 'EACCES',
+209 error   path: '/usr/local/lib/node_modules',
+209 error   fstream_type: 'Directory',
+209 error   fstream_path: '/usr/local/lib/node_modules/nativefier',
+209 error   fstream_class: 'DirWriter',
+209 error   fstream_stack:
+209 error    [ '/usr/lib/nodejs/fstream/lib/writer.js:171:23',
+209 error      '/usr/lib/nodejs/mkdirp/index.js:37:53',
+209 error      'Object.oncomplete (fs.js:107:15)' ] }
+210 error Please try running this command again as root/Administrator.
+211 error System Linux 3.13.0-63-generic
+212 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "nativefier" "-g"
+213 error cwd /media/george/A2163849163820A9/java/school-app
+214 error node -v v0.10.25
+215 error npm -v 1.3.10
+216 error path /usr/local/lib/node_modules
+217 error fstream_path /usr/local/lib/node_modules/nativefier
+218 error fstream_type Directory
+219 error fstream_class DirWriter
+220 error code EACCES
+221 error errno 3
+222 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules'
+223 error fstream_stack /usr/lib/nodejs/fstream/lib/writer.js:171:23
+223 error fstream_stack /usr/lib/nodejs/mkdirp/index.js:37:53
+223 error fstream_stack Object.oncomplete (fs.js:107:15)
+224 verbose exit [ 3, true ]

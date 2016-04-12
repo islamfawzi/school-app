@@ -1,0 +1,65 @@
+<div class="container">
+<h2 ng-hide="school.update">Add School</h2>
+<h2 ng-show="school.update">Edit School</h2>
+
+<div ng-show="success"  class="alert alert-success">
+  <strong>Success!</strong> {{message}}.
+</div>
+
+
+<form method="post" ng-submit="school.addSchool()">
+   <input type="hidden" ng-model="school.schoolData.id" />
+  <fieldset class="form-group">
+    <label for="name">Name: </label>
+    <input type="text" class="form-control" id="name" ng-model="school.schoolData.name" 
+    placeholder="school name">
+  </fieldset>
+
+  <fieldset class="form-group">
+    <label for="address">Address: </label>
+    <input type="text" class="form-control" id="address" ng-model="school.schoolData.address" placeholder="school address">
+  </fieldset>
+
+  <fieldset class="form-group">
+    <label for="description">Description: </label>
+    <textarea class="form-control" id="description" ng-model="school.schoolData.description" rows="3">
+    </textarea>
+  </fieldset>
+
+
+  <fieldset>
+    <label for="contacts">Contacts</label>
+      <div class="row">
+
+        <div class="contacts col-lg-7" style="margin-bottom: 10px" ng-repeat="x in school.contacts">
+          <input type="hidden" ng-model="school.schoolData.contacts.ids[$index]" /> 
+
+          <div class="col-xs-5">
+            <select class="form-control" ng-model="school.schoolData.contacts.type[$index]">
+            <option value=""> --- select a type --- </option> 
+              <option value="P">Phone</option>
+              <option value="E">Email</option>
+            </select>
+          </div>
+
+          <div class="col-lg-7">
+            <input type="text" class="form-control" ng-model="school.schoolData.contacts.value[$index]">
+          </div>
+        </div>
+
+        <div class="col-lg-1">
+          <button class="btn btn-success" type="button" ng-click="school.addmore()" >Add more</button>
+        </div>
+      </div>
+  </fieldset>
+
+  <div style="margin-top: 10px">
+    <button type="submit" class="btn btn-success">
+      <span ng-show="school.update"> Edit </span>   
+      <span ng-hide="school.update"> Add </span>
+    </button>
+
+    <button type="reset" class="btn btn-primary">Reset</button>
+  </div>
+</form>
+</div>
